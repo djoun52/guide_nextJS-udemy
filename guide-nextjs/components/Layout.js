@@ -1,7 +1,6 @@
+import { Header } from './header.js'
 
-import { Header } from './Header.js'
-
-export default function Layout({children}) {
+export function Layout({ children }) {
     return (
         <>
             <Header/>

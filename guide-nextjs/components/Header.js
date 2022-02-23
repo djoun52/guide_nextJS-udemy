@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Header() {
+export function Header(){
   const style = {
     nav: {
       margin: "20px",
